@@ -1,16 +1,27 @@
 #include <QTextStream>
+#include "lesson2.h"
+#include "lesson1.h"
+#include "lesson3.h"
+#include "lesson4.h"
+#include "lesson5.h"
+#include "lesson6.h"
 using namespace Qt;
 
 int main()
 {
     QTextStream out(stdout);
 
-    QString a = "love";
-    a.append(" chees");
-    a.prepend("I ");
-    out<< a<<endl;
-    out << "The a string has " << a.count() << " characters" <<endl;
-    out << a.toUpper() << endl;
-    out << a.toLower() << endl;// hi git
+    out<<endl<< "Lesson 1"<<endl<<endl;
+    lesson1();
+    out<<endl<< "Lesson 2"<<endl<<endl;
+    lesson2();
+    out<<endl<< "Lesson 3"<<endl<<endl;
+    lesson3();
+    out<<endl<< "Lesson 4"<<endl<<endl;
+    lesson4();
+    out<<endl<< "Lesson 5"<<endl<<endl;
+    lesson5();
+    out<<endl<< "Lesson 6"<<endl<<endl;
+    lesson6();
     return 0;
 }
