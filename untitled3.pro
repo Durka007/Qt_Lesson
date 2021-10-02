@@ -23,4 +23,5 @@ HEADERS += \
     lesson5.h \
     lesson6.h \
     lesson7.h \
-    lesson8.h
+    lesson8.h \
+    lesson9.h
