@@ -7,6 +7,8 @@
 #include "lesson6.h"
 #include "lesson7.h"
 #include "lesson8.h"
+#include "lesson9.h"
+#include "lesson10.h"
 using namespace Qt;
 
 int main()
@@ -29,5 +31,9 @@ int main()
     lesson7();
     out<<endl<< "Lesson 8"<<endl<<endl;
     lesson8();
+    out<<endl<< "Lesson 9"<<endl<<endl;
+    lesson9();
+    out<<endl<< "Lesson 10"<<endl<<endl;
+    lesson10();
     return 0;
 }

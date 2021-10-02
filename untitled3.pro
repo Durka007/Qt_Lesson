@@ -18,6 +18,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 HEADERS += \
     lesson1.h \
+    lesson10.h \
     lesson3.h \
     lesson4.h \
     lesson5.h \
